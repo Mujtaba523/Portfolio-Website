@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible", content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/117a667d55.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!---Header-->
+<div id="header">
+ 
+    <div class="container main-header">
+        <nav>
+            <img src="Images/Untitled-1.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="main-header">
+        <div class="float-container">
+            <div class = "float-child float-text">  
+                <div class="header-text">
+                    <p>Junior Data Scientist</p>
+                    <h1>Hi, I'm <span style="color:#f6881f"> Mujtaba</span> Mateen From Pakistan</h1> 
+            </div>
+            </div>
+            <div class = "float-child float-img">   
+                <img src="Images/4905822.png" class="vector">
+            </div>   
+            </div>
+        </div>
+        </div>
+ 
+    </div>
+    <hr class="separator separator--dots" />
+<!---About-->
+<div id="about">
+    <div class="reveal fade-bottom">
+    <div class="container">
+        <div class="row">
+            <div class = "col1">
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_uqkdufr5.json"  background="transparent"  speed="1"   loop  autoplay class="img-aboutme"></lottie-player>
+            </div>
+            <div class = "col2 about-text">
+                <h1 class="sub-title">About Me</h1>
+                <p style="text-align: justify; text-justify: inter-word;">
+                    Data Scientist with the passion for Graphic Designing. We know that nowadays, 
+                    everything is dependent on "Data”, if understood correctly, 
+                    it can illuminate our understanding from tiny atoms to giant galaxies. 
+                    That is why I love to entangle and play with data to unveil the hidden potential and profits. 
+                    This passion for data is the main reason in pursuing Computer Systems Engineering from NED University. 
+                    To add the credibility in my mentioned skills, I have completed many courses both online and onsite from renowned institutions. 
+                    I have worked on many other projects hence making my portfolio strong and competitive. I am eager to secure the challenges in both domains.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        
+                        <li><span>Data Analysis</span><br>Analysing Data to Unveil Hidden Insights<br>Tools: Python, SQL, Pandas, Matplotlib, Ms Excel, Ms Power BI</li>
+                        <li><span>ML/DL</span><br>Developing Machine Learning Model for Detection, Prediction or Recommendation<br>Tools: Keras, Tensorflow, Scikit-Learn, PyTorch</li>
+                        <li><span>Python Developer</span><br>Developing GUI/CLI Desktop Applications in Python<br>Tools: Tkinter, PyQT5</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="certifications">
+                    <ul>
+                        <li><span>IBM Data Science Professional Certificate</span><br>Coursera</li>
+                        <li><span>Neural Networks in Python: Deep Learning for Beginners</span><br>Udemy</li>
+                        <li><span>Cloud Computing Basics (Cloud 101)</span><br>LearnQuest</li>
+                        <li><span>Python for Everybody (Specialization)</span><br>University Of Michigan</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Bachelors in Computer Systems Engineering</span><br>NED University of Engineering & Technology Karachi (3.91 CGPA)<br>2020-Present</li>
+                        <li><span>Intermediate</span><br>Adamjee Government Science College Karachi (85%)<br>2020</li>
+                        <li><span>Matriculation</span><br>Shaheen Public School Karachi (87%)<br>2018</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<hr class="separator separator--dots" />
+
+<!---Services-->
+<div id = "services">
+    <div class="reveal fade-right">
+    <div class="container main-services">
+        <h1 class="sub-title">My Services</h1>
+        <div class = "services-list">
+            <div>
+                <i class="fas fa-chart-line"></i>
+                <h2>Data Analytics</h2>
+                <p style="text-align: justify; text-justify: inter-word;"> Data analysis is the process of cleaning, changing, and processing raw data, and extracting actionable, relevant information that helps businesses make informed decisions. 
+                    The procedure helps reduce the risks inherent in decision-making by providing useful insights and statistics, often presented in charts, images, tables, and graphs. </p>
+            </div>
+            <div>
+                <i class="fas fa-project-diagram"></i>
+                <h2>ML/DL Model Building</h2>
+                <p style="text-align: justify; text-justify: inter-word;"> Every machine learning algorithm has three components:
+
+                    Representation: how to represent knowledge. Examples include decision trees, sets of rules, instances, graphical models, neural networks, support vector machines, model ensembles and others.
+                    Evaluation: the way to evaluate candidate programs (hypotheses). Examples include accuracy, prediction and recall, squared error, likelihood, posterior probability, cost, margin, entropy k-L divergence and others.
+                    Optimization: the way candidate programs are generated known as the search process. For example combinatorial optimization, convex optimization, constrained optimization.</p>
+            </div>
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Python Development</h2>
+                <p style="text-align: justify; text-justify: inter-word;"> A Python Developer is responsible for coding, designing, deploying, and debugging development projects, 
+                    typically on the server-side (or back-end). They may, however, also help organizations with their technological framework. </p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<hr class="separator separator--dots" />
+
+<!---Portfolio-->
+<div id="portfolio">
+    <div class="reveal fade-left">
+    <div class="container main-portfolio">
+        <h1 class="sub-title">Portfolio</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/66b6507156fbca1b9d18da89a002d1edc022aef0.png">
+                <div class="layer">
+                    <h3>Fresh Supermarket Desktop Application</h3>
+                    <a href="https://github.com/Mujtaba523/Fresh-Supermarket-Application" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/414dcb0c04b1e54ae2e2eb5d70e30348f5e1afe5.png">
+                <div class="layer">
+                    <h3>Libary Management System</h3>
+                    <a href="https://github.com/Mujtaba523/Library-Management-System" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/65801d7f16496c9cc41403c73ddad55668fb6f23.png">
+                <div class="layer">
+                    <h3>Maven's Analytics Space Challenge</h3>
+                    <a href="https://github.com/Mujtaba523/MavenAnalyticsSpaceChallenge/blob/main/a.pdf" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/Untitled.png">
+                <div class="layer">
+                    <h3>Unicorn Companies Dashboard</h3>
+                    <a href="https://github.com/Mujtaba523/Unicorn-Companies-Dashboard" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/e298fce168d3acb5c0ea8ebf829e252bfd06b58e.png">
+                <div class="layer">
+                    <h3>Cryptocurrency Dashboard</h3>
+                    <a href="https://github.com/Mujtaba523/Cryptocurrency-Dashboard" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/2.png">
+                <div class="layer">
+                    <h3>Alzheimer's Disease Classification Using MRI Images</h3>
+                    <a href="https://github.com/Mujtaba523/Alzheimer-sDiseaseClassifier" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+</div>
+<hr class="separator separator--dots" />
+
+<!---Contact-->
+<div id="contact">
+    <div class="reveal fade-bottom">
+    <div class="container main-contact">
+        <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <div class="socials">
+            <p><i class="fa-solid fa-paper-plane"></i>mujtabamatin52@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>03342148311</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/mujtaba-mateen-4258971b8/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Mujtaba523" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+             </div>
+            <a href="Resume.pdf" download class="btn btn2">Download Resume</a>
+            <div itemscope itemtype='http://schema.org/Person' class='fiverr-seller-widget' style='display: inline-block;'>
+                <a itemprop='url' href=https://www.fiverr.com/mujtabadot rel="nofollow" target="_blank" style='display: inline-block;'>
+                   <div class='fiverr-seller-content' id='fiverr-seller-widget-content-6fcaa70d-c001-4cd0-b1cf-ec141cfa1cca' itemprop='contentURL' style='display: none;'></div>
+                   <div id='fiverr-widget-seller-data' style='display: none;'>
+                       <div itemprop='name' >mujtabadot</div>
+                       <div itemscope itemtype='http://schema.org/Organization'><span itemprop='name'>Fiverr</span></div>
+                       <div itemprop='jobtitle'>Seller</div>
+                       <div itemprop='description'>“Welcome to my profile. I am an innovative, highly self-motivated, Jr Data Analyst."
+           I am currently completing my computer engineering degree from a renowned university. I love to entangle and play with data to unveil the hidden potential and profits. 
+           
+           I want to prove this statement that:       
+           “You are lucky if your passion is also your way of earning.”
+           
+           
+           
+           </div>
+                   </div>
+               </a>
+           </div>
+           
+           <script id='fiverr-seller-widget-script-6fcaa70d-c001-4cd0-b1cf-ec141cfa1cca' src='https://widgets.fiverr.com/api/v1/seller/mujtabadot?widget_id=6fcaa70d-c001-4cd0-b1cf-ec141cfa1cca' data-config='{"category_name":"\n                                    Programming \u0026 Tech\n\n                            "}' async='true' defer='true'></script>
+           
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="text" name="Email" placeholder="Your E-mail" required>
+                <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &#169; Mujtaba <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+</div>
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbynP5I5oHYeFxh6-_9h4x3wMkILcSWdHvLUt0PDKvjDu-ZBOGJ0PJv2yZhlWo6MM31Obg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent succefully!!"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <script>
+    function reveal() {
+  var reveals = document.querySelectorAll(".reveal");
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal);
+  </script>
+
+</body>
+</html>
+
+
+
+<!-- 993 -->
